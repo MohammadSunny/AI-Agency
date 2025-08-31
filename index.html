@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Automation Agency - Transform Your Business with Intelligent Automation</title>
+    <meta name="description" content="Leading AI automation agency helping businesses streamline operations, increase efficiency, and drive growth through intelligent automation solutions.">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen" class="loading-screen">
+        <div class="loading-content">
+            <div class="ai-loader">
+                <div class="ai-brain">
+                    <div class="neuron"></div>
+                    <div class="neuron"></div>
+                    <div class="neuron"></div>
+                    <div class="neuron"></div>
+                </div>
+            </div>
+            <p>Initializing AI Systems...</p>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-robot"></i>
+                <span>AI Automation</span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#demo" class="nav-link">AI Demo</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#process" class="nav-link">Process</a></li>
+                <li><a href="#testimonials" class="nav-link">Reviews</a></li>
+                <li><a href="#contact" class="nav-link cta-nav">Get Started</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+            <div class="gradient-orb orb-3"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span class="gradient-text">Transform Your Business</span>
+                        <br>with AI Automation
+                    </h1>
+                    <p class="hero-subtitle">
+                        We build intelligent automation systems that scale your business, 
+                        reduce costs by up to 70%, and free your team to focus on what matters most.
+                    </p>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <span class="stat-number" data-target="500">0</span>
+                            <span class="stat-label">Hours Saved Daily</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number" data-target="95">0</span>
+                            <span class="stat-label">% Accuracy Rate</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number" data-target="200">0</span>
+                            <span class="stat-label">+ Clients Served</span>
+                        </div>
+                    </div>
+                    <div class="hero-buttons">
+                        <button class="btn btn-primary" id="start-demo">
+                            <i class="fas fa-play"></i> Start AI Demo
+                        </button>
+                        <button class="btn btn-secondary" id="learn-more">
+                            <i class="fas fa-arrow-down"></i> Learn More
+                        </button>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="ai-visualization">
+                        <div class="ai-nodes">
+                            <div class="node active" data-service="Data Processing"></div>
+                            <div class="node" data-service="Workflow Automation"></div>
+                            <div class="node" data-service="Customer Support"></div>
+                            <div class="node" data-service="Analytics & Insights"></div>
+                            <div class="node" data-service="Integration Hub"></div>
+                        </div>
+                        <div class="ai-connections"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our AI Automation Services</h2>
+                <p class="section-subtitle">Comprehensive solutions to automate and optimize every aspect of your business</p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card" data-service="workflow">
+                    <div class="service-icon">
+                        <i class="fas fa-project-diagram"></i>
+                    </div>
+                    <h3>Workflow Automation</h3>
+                    <p>Streamline repetitive tasks and complex business processes with intelligent automation workflows.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Process Optimization</li>
+                        <li><i class="fas fa-check"></i> Task Scheduling</li>
+                        <li><i class="fas fa-check"></i> Error Handling</li>
+                    </ul>
+                    <div class="service-hover-effect"></div>
+                </div>
+
+                <div class="service-card" data-service="chatbot">
+                    <div class="service-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>AI Chatbots & Support</h3>
+                    <p>Deploy intelligent chatbots that handle customer inquiries 24/7 with human-like interactions.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Natural Language Processing</li>
+                        <li><i class="fas fa-check"></i> Multi-channel Support</li>
+                        <li><i class="fas fa-check"></i> Learning Capabilities</li>
+                    </ul>
+                    <div class="service-hover-effect"></div>
+                </div>
+
+                <div class="service-card" data-service="analytics">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Predictive Analytics</h3>
+                    <p>Leverage AI-powered analytics to predict trends, optimize decisions, and drive business growth.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Trend Prediction</li>
+                        <li><i class="fas fa-check"></i> Risk Assessment</li>
+                        <li><i class="fas fa-check"></i> Performance Insights</li>
+                    </ul>
+                    <div class="service-hover-effect"></div>
+                </div>
+
+                <div class="service-card" data-service="integration">
+                    <div class="service-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3>System Integration</h3>
+                    <p>Connect and synchronize your existing tools and systems for seamless data flow and operations.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> API Development</li>
+                        <li><i class="fas fa-check"></i> Data Synchronization</li>
+                        <li><i class="fas fa-check"></i> Legacy System Support</li>
+                    </ul>
+                    <div class="service-hover-effect"></div>
+                </div>
+
+                <div class="service-card" data-service="document">
+                    <div class="service-icon">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <h3>Document Processing</h3>
+                    <p>Automate document handling, data extraction, and processing with advanced AI technologies.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> OCR & Text Extraction</li>
+                        <li><i class="fas fa-check"></i> Document Classification</li>
+                        <li><i class="fas fa-check"></i> Automated Filing</li>
+                    </ul>
+                    <div class="service-hover-effect"></div>
+                </div>
+
+                <div class="service-card" data-service="custom">
+                    <div class="service-icon">
+                        <i class="fas fa-magic"></i>
+                    </div>
+                    <h3>Custom AI Solutions</h3>
+                    <p>Tailored AI solutions designed specifically for your unique business requirements and challenges.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Bespoke Development</li>
+                        <li><i class="fas fa-check"></i> Industry-specific</li>
+                        <li><i class="fas fa-check"></i> Scalable Architecture</li>
+                    </ul>
+                    <div class="service-hover-effect"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive AI Demo Section -->
+    <section id="demo" class="ai-demo">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Experience AI in Action</h2>
+                <p class="section-subtitle">See how our AI automation works in real-time</p>
+            </div>
+            
+            <div class="demo-container">
+                <div class="demo-controls">
+                    <button class="demo-btn active" data-demo="workflow">Workflow Automation</button>
+                    <button class="demo-btn" data-demo="chatbot">AI Chatbot</button>
+                    <button class="demo-btn" data-demo="analytics">Data Analytics</button>
+                </div>
+                
+                <div class="demo-display">
+                    <div class="demo-content active" id="demo-workflow">
+                        <div class="workflow-visualization">
+                            <div class="workflow-step" data-step="1">
+                                <i class="fas fa-upload"></i>
+                                <span>Data Input</span>
+                            </div>
+                            <div class="workflow-arrow">→</div>
+                            <div class="workflow-step" data-step="2">
+                                <i class="fas fa-brain"></i>
+                                <span>AI Processing</span>
+                            </div>
+                            <div class="workflow-arrow">→</div>
+                            <div class="workflow-step" data-step="3">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Automated Action</span>
+                            </div>
+                            <div class="workflow-arrow">→</div>
+                            <div class="workflow-step" data-step="4">
+                                <i class="fas fa-chart-bar"></i>
+                                <span>Results & Analytics</span>
+                            </div>
+                        </div>
+                        <button class="demo-play-btn" id="play-workflow">
+                            <i class="fas fa-play"></i> Run Demo
+                        </button>
+                    </div>
+                    
+                    <div class="demo-content" id="demo-chatbot">
+                        <div class="chatbot-simulation">
+                            <div class="chat-header">
+                                <i class="fas fa-robot"></i>
+                                <span>AI Assistant</span>
+                                <div class="status-indicator online"></div>
+                            </div>
+                            <div class="chat-messages" id="chat-messages">
+                                <div class="message bot-message">
+                                    <div class="message-content">
+                                        Hello! I'm your AI assistant. How can I help you today?
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="chat-input-container">
+                                <input type="text" id="chat-input" placeholder="Type your message...">
+                                <button id="send-message"><i class="fas fa-paper-plane"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="demo-content" id="demo-analytics">
+                        <div class="analytics-dashboard">
+                            <div class="metric-card">
+                                <h4>Processing Speed</h4>
+                                <div class="metric-value">
+                                    <span class="number" data-target="1247">0</span>
+                                    <span class="unit">req/min</span>
+                                </div>
+                            </div>
+                            <div class="metric-card">
+                                <h4>Accuracy Rate</h4>
+                                <div class="metric-value">
+                                    <span class="number" data-target="99.7">0</span>
+                                    <span class="unit">%</span>
+                                </div>
+                            </div>
+                            <div class="metric-card">
+                                <h4>Cost Savings</h4>
+                                <div class="metric-value">
+                                    <span class="number" data-target="67">0</span>
+                                    <span class="unit">%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Success Stories</h2>
+                <p class="section-subtitle">Real results from real businesses</p>
+            </div>
+            
+            <div class="portfolio-filter">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="ecommerce">E-commerce</button>
+                <button class="filter-btn" data-filter="healthcare">Healthcare</button>
+                <button class="filter-btn" data-filter="finance">Finance</button>
+                <button class="filter-btn" data-filter="manufacturing">Manufacturing</button>
+            </div>
+            
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="ecommerce">
+                    <div class="portfolio-image">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>E-commerce Order Automation</h3>
+                                <p>Reduced processing time by 85% and eliminated human errors</p>
+                                <div class="portfolio-metrics">
+                                    <span><i class="fas fa-clock"></i> 85% faster</span>
+                                    <span><i class="fas fa-dollar-sign"></i> $50K saved/month</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="healthcare">
+                    <div class="portfolio-image">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>Healthcare Document Processing</h3>
+                                <p>Automated patient record management and insurance claims</p>
+                                <div class="portfolio-metrics">
+                                    <span><i class="fas fa-users"></i> 10K+ patients</span>
+                                    <span><i class="fas fa-percentage"></i> 99% accuracy</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="finance">
+                    <div class="portfolio-image">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>Financial Risk Assessment AI</h3>
+                                <p>Predictive analytics for loan approval and risk management</p>
+                                <div class="portfolio-metrics">
+                                    <span><i class="fas fa-shield-alt"></i> 40% risk reduction</span>
+                                    <span><i class="fas fa-tachometer-alt"></i> Real-time analysis</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="manufacturing">
+                    <div class="portfolio-image">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>Smart Manufacturing QC</h3>
+                                <p>AI-powered quality control and predictive maintenance</p>
+                                <div class="portfolio-metrics">
+                                    <span><i class="fas fa-cog"></i> 30% efficiency gain</span>
+                                    <span><i class="fas fa-exclamation-triangle"></i> 95% defect detection</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section id="process" class="process">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Proven Process</h2>
+                <p class="section-subtitle">From consultation to deployment in 4 simple steps</p>
+            </div>
+            
+            <div class="process-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-number">01</div>
+                    <div class="timeline-content">
+                        <h3>Discovery & Analysis</h3>
+                        <p>We analyze your current workflows and identify automation opportunities</p>
+                        <ul>
+                            <li>Process mapping</li>
+                            <li>Pain point identification</li>
+                            <li>ROI assessment</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-number">02</div>
+                    <div class="timeline-content">
+                        <h3>Strategy & Design</h3>
+                        <p>Create a custom automation strategy tailored to your business needs</p>
+                        <ul>
+                            <li>Solution architecture</li>
+                            <li>Technology selection</li>
+                            <li>Implementation roadmap</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-number">03</div>
+                    <div class="timeline-content">
+                        <h3>Development & Testing</h3>
+                        <p>Build, test, and refine your AI automation solutions</p>
+                        <ul>
+                            <li>Agile development</li>
+                            <li>Rigorous testing</li>
+                            <li>User feedback integration</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-number">04</div>
+                    <div class="timeline-content">
+                        <h3>Deployment & Support</h3>
+                        <p>Launch your solutions with ongoing support and optimization</p>
+                        <ul>
+                            <li>Smooth deployment</li>
+                            <li>Team training</li>
+                            <li>Continuous optimization</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">What Our Clients Say</h2>
+                <p class="section-subtitle">Success stories from businesses we've transformed</p>
+            </div>
+            
+            <div class="testimonials-carousel">
+                <div class="testimonial-card active">
+                    <div class="testimonial-content">
+                        <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                        <p>"The AI automation solutions have revolutionized our operations. We've saved over 200 hours per week and increased accuracy to 99.5%. The ROI was evident within the first month."</p>
+                        <div class="testimonial-author">
+                            <div class="author-info">
+                                <h4>Sarah Johnson</h4>
+                                <span>CEO, TechCorp Solutions</span>
+                            </div>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                        <p>"Outstanding service and results. The chatbot handles 80% of our customer inquiries automatically, and our customers love the instant responses. Customer satisfaction is at an all-time high."</p>
+                        <div class="testimonial-author">
+                            <div class="author-info">
+                                <h4>Michael Chen</h4>
+                                <span>Operations Director, RetailMax</span>
+                            </div>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                        <p>"The predictive analytics platform has transformed how we make decisions. We can now predict market trends with 95% accuracy and adjust our strategy proactively."</p>
+                        <div class="testimonial-author">
+                            <div class="author-info">
+                                <h4>Emily Rodriguez</h4>
+                                <span>CMO, DataDriven Inc.</span>
+                            </div>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="carousel-controls">
+                <button class="carousel-btn prev" id="prev-testimonial">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <div class="carousel-dots">
+                    <span class="dot active" data-slide="0"></span>
+                    <span class="dot" data-slide="1"></span>
+                    <span class="dot" data-slide="2"></span>
+                </div>
+                <button class="carousel-btn next" id="next-testimonial">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2>Ready to Transform Your Business?</h2>
+                    <p>Get a free consultation and see how AI automation can revolutionize your operations.</p>
+                    
+                    <div class="contact-features">
+                        <div class="feature">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h4>Free Consultation</h4>
+                                <p>30-minute strategy session</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-chart-line"></i>
+                            <div>
+                                <h4>ROI Analysis</h4>
+                                <p>Detailed cost-benefit report</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-shield-alt"></i>
+                            <div>
+                                <h4>Risk-Free Start</h4>
+                                <p>No upfront costs or commitments</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>hello@aiautomation.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+1 (555) 123-4567</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>San Francisco, CA</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" required>
+                            <label for="name">Full Name</label>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" required>
+                            <label for="email">Email Address</label>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="tel" id="phone" name="phone">
+                            <label for="phone">Phone Number</label>
+                        </div>
+                        
+                        <div class="form-group">
+                            <select id="service" name="service" required>
+                                <option value="">Select a Service</option>
+                                <option value="workflow">Workflow Automation</option>
+                                <option value="chatbot">AI Chatbots</option>
+                                <option value="analytics">Predictive Analytics</option>
+                                <option value="integration">System Integration</option>
+                                <option value="document">Document Processing</option>
+                                <option value="custom">Custom AI Solution</option>
+                            </select>
+                            <label for="service">Service of Interest</label>
+                        </div>
+                        
+                        <div class="form-group">
+                            <textarea id="message" name="message" required></textarea>
+                            <label for="message">Tell us about your automation needs</label>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-form">
+                            <span class="btn-text">Get Free Consultation</span>
+                            <span class="btn-loading">
+                                <i class="fas fa-spinner fa-spin"></i>
+                            </span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-robot"></i>
+                        <span>AI Automation</span>
+                    </div>
+                    <p>Transforming businesses through intelligent automation solutions.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="#services">Workflow Automation</a></li>
+                        <li><a href="#services">AI Chatbots</a></li>
+                        <li><a href="#services">Predictive Analytics</a></li>
+                        <li><a href="#services">System Integration</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#process">Our Process</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Resources</h3>
+                    <ul>
+                        <li><a href="#">Case Studies</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">White Papers</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 AI Automation Agency. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/demo.js"></script>
+</body>
+</html>
